@@ -1,6 +1,8 @@
-import Annotations.AfterSuite;
-import Annotations.BeforeSuite;
-import Annotations.Test;
+package inno.java.homework1;
+
+import inno.java.homework1.Annotations.AfterSuite;
+import inno.java.homework1.Annotations.BeforeSuite;
+import inno.java.homework1.Annotations.Test;
 
 public class TestCodeExample {
 
@@ -28,7 +30,7 @@ public class TestCodeExample {
         System.out.println("test4");
     }
 
-    @Test
+    @Test(priority = 1)
     public void test6() {
         System.out.println("test6");
     }
